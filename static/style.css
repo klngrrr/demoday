@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cabeçalho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 188px;
+}
+
+.parallax{
+    height: 659px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax:nth-child(1){
+    background-image: url(./benny-jackson-222664-unsplash.jpg)
+}
+
+#logo{
+    width: 16%;
+    height: 16%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+#botoes{
+    width: 40%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    color: white;
+}
+
+#bloco2{
+    height: 600px;
+}
+
+#botoeshome{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-top: 15px;
+}
+
+#botoeshome a:hover{
+    background: #f2b841;
+}
+
+#botoeshome a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+}
