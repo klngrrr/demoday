@@ -17,6 +17,12 @@ app.get('/views/Nossotrabalho.ejs', (req, res) => {
 app.get('/views/Parceiros.ejs', (req, res) => {
     res.render('Parceiros');
 });
+app.get('/views/agenda.ejs', (req, res) => {
+    res.render('agenda');
+});
+app.get('/views/index.ejs', (req, res) => {
+    res.render('index');
+});
 
 
 app.listen(4000, () => {

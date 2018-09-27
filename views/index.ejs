@@ -3,20 +3,30 @@
 <%- include('shared/head') %>
 <body>
     <header>
-        <div class="parallax">  
-            <div id="cabeçalho">
-                <img id="logo" src="/static/c.i.png" alt="logo">
+        <div class="parallax">
+            <div id="botoeshome">
+                <a href="/views/NossoTrabalho.ejs">Nosso trabalho</a>
+                <a href="/views/Parceiros.ejs">Seja nosso parceiro</a>
+                <a href="/views/agenda.ejs">Agenda</a>
             </div>
         </div>
     </header>
+    
     <section id="bloco2">
-        <div class="conteudo">
-            <div id="botoeshome">
-                    <a href="/views/NossoTrabalho.ejs">Nosso trabalho</a>
-                <a href="/views/Parceiros.ejs">Seja nosso parceiro</a>
-            </div>
+        <div class="container">
+            <div class="img"> <img class="img2" src="/static/perfil.jpg" alt=""> </div>
+            <div class="texto"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque quae culpa natus eos laboriosam possimus mollitia et harum perferendis, dolores aut nostrum similique at quia dicta aspernatur! Odio, voluptatem!</p> </div>
+        </div>
+        <div class="container2">
+            <div class="img"> <img class="img2" src="/static/perfil1.jpg" alt=""> </div>
+            <div class="texto"> <p>Lorem ipsum dolor sit amet lore consectetur adipisicing elit. Excepturi quasi adipisci nihil, cumque deleniti id omnis a nemo, inventore reiciendis veniam tempore eum debitis doloremque perferendis necessitatibus placeat quo! Labore.</p> </div>
+        </div>
+        <div class="container">
+            <div class="img"> <img class="img2" src="/static/perfin2.jpg" alt=""> </div>
+            <div class="texto"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae harum dolorum exercitationem iure natus. Beatae cumque quidem magni quibusdam fugiat? Vel amet quas nihil impedit consequatur cupiditate illo deleniti!</p> </div>
         </div>
     </section>
-    
+<%- include('shared/footer') %>
 </body>
+
 </html>

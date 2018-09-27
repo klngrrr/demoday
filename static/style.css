@@ -10,24 +10,54 @@ body{
     padding-top: 188px;
 }
 
+#botoeshome{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin: 0%;
+    width: 100%;
+    position: relative;
+    top: 2px;
+    margin-top: -7px;
+    background-color: #f2b741e1;
+}
+
+#botoeshome a:hover{
+    transform: scale(1.2);
+}
+
+#botoeshome a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: 3px solid #e65400ad;
+    transition: 1s;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+
+.botao2{width: 150px;
+    margin-left: 900px;
+    margin-top: 180px;
+    position: relative;
+}
+
 .parallax{
-    height: 659px;
+    height: 668px;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+}
+.parallax2{
+    height: 750px;
+    background-color: #f2b741c0;
 }
 
 .parallax:nth-child(1){
-    background-image: url(./benny-jackson-222664-unsplash.jpg)
-}
-
-#logo{
-    width: 16%;
-    height: 16%;
-    display: flex;
-    margin: 0 auto;
-    border-radius: 20%;
+    background-image: url(/static/fresh\ aquasummit.png);
 }
 
 #botoes{
@@ -37,28 +67,84 @@ body{
     justify-content: space-evenly;
 }
 
-a:hover{
+#bloco2{
+    display: flex;
+    height: 719px;
+    background-color: #f2b741c0;
+    flex-direction: column;
+}
+
+footer{
+    justify-content: center;
+    height: 175px;
+    align-items: center;
+    background-color: #e65400ad;
+    display: flex;
     color: white;
 }
 
-#bloco2{
-    height: 600px;
-}
-
-#botoeshome{
+#icons{
     display: flex;
     justify-content: space-evenly;
-    width: 500px;
-    padding-top: 15px;
+    width: 470px;
 }
 
-#botoeshome a:hover{
-    background: #f2b841;
+footer section{
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-#botoeshome a{
-    text-decoration: none;
+#icons a{
+    border-radius: 50px;
     padding: 10px;
-    border-radius: 30px;
-    color: black;
+}
+
+#icons a:hover{
+    cursor: pointer;
+    background-color: #f2b741c0;
+}
+
+footer section:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.icon{
+    height: 60px
+}
+
+.container{
+    margin-top: 26px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.container2{
+    margin-top: 26px;
+    display: flex;
+    margin-left: 446px;
+}
+
+.texto{
+    margin-left: 74px;
+    display: flex;
+    align-items: center;
+    width: 589px;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+#quadroMenor{
+    width: 770px;
+}
+
+#quadroMaior{
+    display: flex;
+    justify-content: center;
 }
