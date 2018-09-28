@@ -13,13 +13,13 @@ body{
 #botoeshome{
     display: flex;
     align-items: flex-start;
-    height: 100px;
+    height: 89px;
     margin: 0%;
     width: 100%;
     position: relative;
     top: 2px;
     margin-top: -7px;
-    background-color: #f2b741e1;
+    /* background-color: #e654008c; */
 }
 
 #botoeshome a:hover{
@@ -76,7 +76,7 @@ body{
 
 footer{
     justify-content: center;
-    height: 175px;
+    height: 140px;
     align-items: center;
     background-color: #e65400ad;
     display: flex;
@@ -142,20 +142,40 @@ footer section:nth-child(2){
 
 #quadroMenor{
     width: 770px;
+    margin-left: 458px;
+    margin-top: 160px;
+    color: white;
 }
 
 #quadroMenor h1{
     margin-top: 65px;
+    margin-left: 68px;
 }
 
 #quadroMenor p{
+    margin-left: 28px;
     padding: 30px;
-    border: 2px solid #e65400ad;
-    background-color: #e654003b;
+    background-color: #DB9E65;
 }
 
 #quadroMaior{
     display: flex;
     justify-content: center;
     height: 670px;
+}
+
+#parallax2{
+    background-image: url('./pag2.jpg');
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax3{
+    background-image: url('./seja\ nosso\ parceiro.jpg');
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
