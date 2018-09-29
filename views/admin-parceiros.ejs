@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('shared/head') %>
+<body>
+    <section>
+        <h2>Parceiros</h2>
+        <% for(let parceiro of Parceiros){ %>
+            <div>
+                <p>Nome/Empresa: <%= mensagem.nome%></p>
+                <p>E-Mail: <%= mensagem.email%></p>
+                <p>Telefone: <%= mensagem.telefone%></p>
+            </div>
+            <% } %>
+        </section>
+    </body>
+    </html>

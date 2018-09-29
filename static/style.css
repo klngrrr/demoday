@@ -148,7 +148,7 @@ footer section:nth-child(2){
 }
 
 #quadroMenor h1{
-    margin-top: 65px;
+    margin-top: 180px;
     margin-left: 68px;
 }
 
@@ -166,7 +166,7 @@ footer section:nth-child(2){
 
 #parallax2{
     background-image: url('./pag2.jpg');
-    height: 668px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +174,7 @@ footer section:nth-child(2){
 
 #parallax3{
     background-image: url('./pag3.jpg');
-    height: 665px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,15 +190,35 @@ footer section:nth-child(2){
     padding: 37px;
 }
 
-#quadroMenor1 a{
-    text-decoration: none;
+#quadroMenor1 button{
+    border: 0px;
     color: white;
-    margin-left: 149px;
+    font-size: 20px;
+    cursor: pointer;
     margin-top: 28px;
+    background-color: rgba(219, 158, 101, 0);
 }
 
 input{
     margin-top: 10px;
     border-radius: 10px;
     padding: 5px;
+}
+
+#calendario{
+    margin-left: 277px;
+}
+
+#parallax4{
+    background-image: url('./pag3.jpg');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax4 h1{
+    color: white;
+    margin-left: 409px;
+    margin-top: 76px;
 }
