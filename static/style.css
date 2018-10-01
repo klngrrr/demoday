@@ -8,6 +8,7 @@ body{
     justify-content: center;
     flex-direction: column;
     padding-top: 188px;
+    
 }
 
 #botoeshome{
@@ -19,7 +20,7 @@ body{
     position: relative;
     top: 2px;
     margin-top: -7px;
-    /* background-color: #e654008c; */
+    background-color: rgba(153, 192, 221, 0.712);
 }
 
 #botoeshome a:hover{
@@ -29,10 +30,10 @@ body{
 #botoeshome a{
     text-decoration: none;
     padding: 10px;
-    color: rgb(255, 255, 255);
+    color: black;
     text-transform: uppercase;
     font-size: 1em;
-    border-bottom: 3px solid #e65400ad;
+    border-bottom: 3px solid rgb(133, 199, 159);
     transition: 1s;
     margin-left: 100px;
     margin-top: 22px;
@@ -50,6 +51,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-color: #99C0DD;
 }
 .parallax2{
     height: 750px;
@@ -57,7 +59,7 @@ body{
 }
 
 .parallax:nth-child(1){
-    background-image: url(/static/fresh\ aquasummit.png);
+    background-image: url(../static/Lane.jpg);
 }
 
 #botoes{
@@ -70,7 +72,7 @@ body{
 #bloco2{
     display: flex;
     height: 719px;
-    background-color: #f2b741c0;
+    background-color: #99C0DD;
     flex-direction: column;
 }
 
@@ -78,7 +80,7 @@ footer{
     justify-content: center;
     height: 140px;
     align-items: center;
-    background-color: #e65400ad;
+    background-color: rgb(133, 199, 159);
     display: flex;
     color: white;
 }
@@ -149,13 +151,13 @@ footer section:nth-child(2){
 
 #quadroMenor h1{
     margin-top: 180px;
-    margin-left: 68px;
+    margin-left: 156px;
 }
 
 #quadroMenor p{
-    margin-left: 26px;
+    margin-left: 121px;
     padding: 30px;
-    background-color: #DB9E65;
+    background-color: #99C0DD;
 }
 
 #quadroMaior{
@@ -173,7 +175,7 @@ footer section:nth-child(2){
 }
 
 #parallax3{
-    background-image: url('./pag3.jpg');
+    background-image: url('./pag3.png');
     height: 900px;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,7 +188,7 @@ footer section:nth-child(2){
     width: 396px;
     margin-left: 25px;
     margin-top: 23px;
-    background-color: #DB9E65;
+    background-color: #99C0DD;
     padding: 37px;
 }
 
